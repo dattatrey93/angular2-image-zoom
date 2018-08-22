@@ -61,7 +61,7 @@ export class ImageZoomContainer {
     }
 
     public setBackgroundPostion(x: number, y: number) {
-        this.el.style.backgroundPosition = `${x}px ${y}px`;
+        this.el.style.backgroundPosition = `${x + 20}px ${y}px`;
         this.positionX = x;
         this.positionY = y;
     }
